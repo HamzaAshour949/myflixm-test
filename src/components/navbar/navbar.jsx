@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import PropTypes from "prop-types";
 
-export function Navbar({ user, onLoggedOut }) {
+export function Navbar123 ({ user, onLoggedOut }) {
   let token = localStorage.getItem("token");
 
   return (
